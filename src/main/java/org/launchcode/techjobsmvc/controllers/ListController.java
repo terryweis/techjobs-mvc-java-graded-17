@@ -15,7 +15,7 @@ import java.util.HashMap;
  * Created by LaunchCode
  */
 @Controller
-@RequestMapping(value = "list")
+@RequestMapping(value = "list") //lives at "/list"
 public class ListController {
 
     static HashMap<String, String> columnChoices = new HashMap<>();
