@@ -39,7 +39,7 @@ public class SearchController {
             model.addAttribute("columns",columnChoices);
         }
 
-        return "search";
+        return "searc";
 }
 }
 
